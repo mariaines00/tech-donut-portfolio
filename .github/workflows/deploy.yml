@@ -24,3 +24,4 @@ jobs:
       with:
         deploy_key: ${{ secrets.ACTIONS_DEPLOY_ACCESS_TOKEN }}
         publish_dir: ./public
+        
