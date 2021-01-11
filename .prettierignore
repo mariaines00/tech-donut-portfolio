@@ -1,0 +1,22 @@
+# Prettier Ignore Files
+.DS_Store
+
+.gitignore
+package.json
+package-lock.json
+yarn.lock
+README.md
+.env
+
+.prettierignore
+.prettierrc
+.eslintcache
+
+build/
+src/assets/css/
+src/assets/images/
+
+.github/workflows/deploy.yml
+
+CNAME
+LICENSE
