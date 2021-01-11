@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  box-sizing: border-box;
+  font-size: 62.5%; // 1rem = 10px, 10px(target) / 16px(browser default) = 62.5%
+
+  @media only screen and (max-width: $breakpoint-large) {
+    font-size: 50%; // 8px/16px = 0.5 -> 50%
+  }
+}
+
+body {
+  height: 100%;
+  line-height: 1.6;
+  min-height: 100vh;
+}
+
+a {
+  cursor: pointer;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 200 !important;
+}
