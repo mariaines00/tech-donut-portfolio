@@ -1,0 +1,27 @@
+// =================================
+// COLOR VARIABLES
+$color-primary: #fc9685;
+$color-primary-light: #ffcac1;
+$color-primary-dark: #a95649;
+
+$color-secondary: #a6ad97;
+
+$color-white: #ffffff;
+
+$background-light: #fbfcff;
+$background-dark: #444444;
+
+// =================================
+// FONT VARIABLES
+$font-primary: 'Open Sans', sans-serif;
+$font-color: #444444;
+$font-color-secondary: #fc9685;
+$font-color-white: #ffffff;
+
+// =================================
+// RESPONSIVE BREAKPOINTS VARIABLES
+$breakpoint-largest: 90em; // 1440px     /16 =75
+$breakpoint-large: 75em; // 1200px     /16 =68.75
+$breakpoint-medium: 56.25em; // 900px      /16 =56.25
+$breakpoint-small: 37.5em; // 600px      /16 =37.5
+$breakpoint-smallest: 31.25em; // 500px      /16 =31.25

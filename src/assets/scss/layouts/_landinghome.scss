@@ -1,0 +1,33 @@
+.landing {
+  &__title {
+    @include font;
+    font-weight: bold;
+    font-size: 12rem;
+    letter-spacing: 0.12em;
+    display: flex;
+    flex-flow: wrap-reverse;
+
+    color: $font-color;
+  }
+
+  &__subtitle {
+    @include font;
+    font-weight: bold;
+    font-size: 3rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: $font-color-secondary;
+  }
+
+  &__user-info {
+    @include font;
+    font-weight: bold;
+    font-size: 2.9rem;
+    letter-spacing: 0.03em;
+    margin-top: 4rem;
+
+    &--paragraph {
+      font-size: 1.5rem;
+    }
+  }
+}
