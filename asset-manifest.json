@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.620a3111.chunk.css",
-    "main.js": "/static/js/main.340f2c37.chunk.js",
-    "main.js.map": "/static/js/main.340f2c37.chunk.js.map",
+    "main.css": "/static/css/main.f200c9ee.chunk.css",
+    "main.js": "/static/js/main.20730a44.chunk.js",
+    "main.js.map": "/static/js/main.20730a44.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.4d25ba2e.js",
     "runtime-main.js.map": "/static/js/runtime-main.4d25ba2e.js.map",
     "static/js/2.8661f508.chunk.js": "/static/js/2.8661f508.chunk.js",
     "static/js/2.8661f508.chunk.js.map": "/static/js/2.8661f508.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.620a3111.chunk.css.map": "/static/css/main.620a3111.chunk.css.map",
+    "static/css/main.f200c9ee.chunk.css.map": "/static/css/main.f200c9ee.chunk.css.map",
     "static/js/2.8661f508.chunk.js.LICENSE.txt": "/static/js/2.8661f508.chunk.js.LICENSE.txt",
     "static/media/donut.55cde7ec.png": "/static/media/donut.55cde7ec.png",
     "static/media/favicon.81776bf6.ico": "/static/media/favicon.81776bf6.ico",
@@ -17,7 +17,7 @@
   "entrypoints": [
     "static/js/runtime-main.4d25ba2e.js",
     "static/js/2.8661f508.chunk.js",
-    "static/css/main.620a3111.chunk.css",
-    "static/js/main.340f2c37.chunk.js"
+    "static/css/main.f200c9ee.chunk.css",
+    "static/js/main.20730a44.chunk.js"
   ]
 }
