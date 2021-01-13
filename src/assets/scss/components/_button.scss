@@ -1,0 +1,12 @@
+.button {
+    @include font;
+    margin-top: 1rem;
+    padding: .5rem 2rem .5rem 2rem;
+    background-color: $background-light;
+    border: 1px solid $color-primary;
+    border-radius: 3px;
+    text-align: center;
+    letter-spacing: 0.12em;
+    color: $color-primary;
+    cursor: pointer;
+}

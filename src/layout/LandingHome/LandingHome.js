@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import donut from '../../assets/images/donut.png'
+import Button from '../../components/Button'
 
 class LandingHome extends Component {
   render() {
@@ -13,7 +14,8 @@ class LandingHome extends Component {
           Fullstack Developers
           <p className='landing__user-info--paragraph'>Frontend | Backend enthusiasts</p>
         </div>
-        {/* FAZERRRR <ProjectsButton /> */}
+        <Button text={"Projects"}/>
+        <Button text={"Ola"}/>
       </div>
     )
   }
