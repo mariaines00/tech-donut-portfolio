@@ -14,8 +14,7 @@ class LandingHome extends Component {
           Fullstack Developers
           <p className='landing__user-info--paragraph'>Frontend | Backend enthusiasts</p>
         </div>
-        <Button text={"Projects"}/>
-        <Button text={"Ola"}/>
+        <Button text={'Projects'} />
       </div>
     )
   }
