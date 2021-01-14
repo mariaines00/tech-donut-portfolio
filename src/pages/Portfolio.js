@@ -12,10 +12,10 @@ class Portfolio extends Component {
           <div className='content__landing'>
             <LandingHome />
           </div>
-          <div className='content__about'>
+          <div>
             <About />
           </div>
-          <div className='content__contact'>
+          <div>
             <Contact />
           </div>
         </div>

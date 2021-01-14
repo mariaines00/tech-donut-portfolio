@@ -1,0 +1,49 @@
+.about {
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  width: 100%;
+  height: 80vh;
+  height: calc(var(--vh, 1vh) * 80);
+  overflow: hidden !important;
+  background-color: $background-dark;
+  padding: 3rem 8rem;
+
+  &__box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    &--title {
+      @include font;
+      font-size: 3rem;
+      color: $color-light;
+    }
+    &--description {
+      @include font;
+      font-size: 2rem;
+      color: $color-light;
+    }
+    &--image{
+        padding-right: 1rem;
+    }
+  }
+  &__box--reverse {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    &--title {
+      @include font;
+      font-size: 3rem;
+      color: $color-light;
+    }
+    &--description {
+      @include font;
+      font-size: 2rem;
+      color: $color-light;
+    }
+    &--image {
+        padding-right: 1rem;
+        transform: scaleX(-1);
+    }
+  }
+}
