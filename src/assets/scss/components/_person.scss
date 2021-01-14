@@ -1,0 +1,53 @@
+.about {
+  
+    &__box {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      &--title {
+        @include font;
+        font-size: 3rem;
+        color: $color-light;
+      }
+      &--subtitle {
+        @include font;
+        font-size: 2rem;
+        color: $color-light;
+      }
+      &--description {
+        @include font;
+        font-size: 1rem;
+        color: $color-light;
+      }
+      &--image{
+          padding-right: 1rem;
+      }
+    }
+    &__box--reverse {
+      display: flex;
+      flex-direction: row-reverse;
+      align-items: center;
+      text-align: right;
+      &--title {
+        @include font;
+        font-size: 3rem;
+        color: $color-light;
+      }
+      &--subtitle {
+        @include font;
+        font-size: 2rem;
+        color: $color-light;
+        float: left;
+      }
+      &--image {
+          padding-right: 1rem;
+          transform: scaleX(-1);
+      }
+      &--description {
+        @include font;
+        font-size: 1rem;
+        color: $color-light;
+      }
+    }
+  }
+  
