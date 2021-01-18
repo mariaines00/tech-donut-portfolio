@@ -9,21 +9,23 @@ class Technologies extends Component {
           <h1>Stuff we use to build stuff</h1>
         </div>
 
-        <Technology
-        name={'React'}
-        subtitle={'This very website was built using react'}
-        description={'Random String trying to explain something random'}
-        />
-        <Technology
-        name={'Kotlin'}
-        subtitle={'Many years on experience using Kotlin'}
-        description={'Random String trying to explain something random'}
-        />
-        <Technology
-        name={'Ruby'}
-        subtitle={'We complain about Ruby but we\'re pretty good at it'}
-        description={'Random String trying to explain something random'}
-        />
+        <div className='technologies__box'>
+          <Technology
+          name={'React'}
+          subtitle={'This very website was built using react'}
+          description={''}
+          />
+          <Technology
+          name={'Kotlin'}
+          subtitle={'Many years of hands-on production experience using Kotlin'}
+          description={''}
+          />
+          <Technology
+          name={'Ruby'}
+          subtitle={'We complain about Ruby but we\'re great with it'}
+          description={''}
+          />
+        </div>
       </div>
     )
   }
