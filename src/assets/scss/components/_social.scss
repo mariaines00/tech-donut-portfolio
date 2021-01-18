@@ -1,3 +1,11 @@
 .social {
+  padding-top: 1rem;
+
+  &--color {
     color: $color-light;
+  }
+
+  &--padding {
+    padding-left: 1rem;
+  }
 }
