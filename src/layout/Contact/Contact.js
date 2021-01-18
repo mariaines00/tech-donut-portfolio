@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import Button from '../../components/Button'
 
 class Contact extends Component {
   render() {
@@ -7,7 +6,6 @@ class Contact extends Component {
       <div className='contact'>
         {' '}
         Contact
-        <Button text={'Ola'} />
       </div>
     )
   }

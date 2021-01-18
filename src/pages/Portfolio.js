@@ -3,6 +3,7 @@ import React, { Component } from 'react'
 import LandingHome from '../layout/LandingHome/LandingHome'
 import About from '../layout/About/About'
 import Contact from '../layout/Contact/Contact'
+import Copyright from '../layout/Copyright/Copyright'
 
 class Portfolio extends Component {
   render() {
@@ -17,6 +18,9 @@ class Portfolio extends Component {
           </div>
           <div>
             <Contact />
+          </div>
+          <div>
+            <Copyright />
           </div>
         </div>
       </div>
