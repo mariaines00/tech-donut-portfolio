@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 
 import LandingHome from '../layout/LandingHome/LandingHome'
 import About from '../layout/About/About'
+import Technologies from '../layout/Technologies/Technologies'
 import Contact from '../layout/Contact/Contact'
 import Copyright from '../layout/Copyright/Copyright'
 
@@ -15,6 +16,9 @@ class Portfolio extends Component {
           </div>
           <div>
             <About />
+          </div>
+          <div>
+            <Technologies />
           </div>
           <div>
             <Contact />
