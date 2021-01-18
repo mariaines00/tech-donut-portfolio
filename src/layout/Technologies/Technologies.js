@@ -25,6 +25,11 @@ class Technologies extends Component {
           subtitle={'We complain about Ruby but we\'re great with it'}
           description={''}
           />
+          <Technology
+          name={'Docker'}
+          subtitle={'We\'re great fans of the whale and ship everyting using docker'}
+          description={''}
+          />
         </div>
       </div>
     )

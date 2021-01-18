@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { SiReact, SiKotlin, SiRuby } from 'react-icons/si'
+import { SiReact, SiKotlin, SiRuby, SiDocker } from 'react-icons/si'
 
 export const Technology = (props) => {
   return (
@@ -8,9 +8,10 @@ export const Technology = (props) => {
       <div className='technology__box--icon'>
         {
           {
-            'React': <SiReact size={50}/>,
-            'Kotlin': <SiKotlin size={50}/>,
-            'Ruby': <SiRuby size={50}/>,
+            'React': <SiReact size={80}/>,
+            'Kotlin': <SiKotlin size={80}/>,
+            'Ruby': <SiRuby size={80}/>,
+            'Docker': <SiDocker size={80}/>,
           }[props.name]
         }
       </div>
