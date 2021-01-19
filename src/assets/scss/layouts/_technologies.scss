@@ -7,13 +7,12 @@
   padding: 3rem 8rem;
 
   &__title {
-    h1 {
-      @include font;
-      color: $font-color;
-      font-size: 3rem;
-      letter-spacing: 0.12em;
-      text-transform: uppercase;
-    }
+    @include font;
+    color: $font-color;
+    font-size: 3rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    text-align: center;
   }
 
   &__box{

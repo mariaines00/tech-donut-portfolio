@@ -6,7 +6,7 @@ class Technologies extends Component {
     return (
       <div className='technologies'>
         <div className='technologies__title'>
-          <h1>Stuff we use to build stuff</h1>
+          Stuff we use to build stuff
         </div>
 
         <div className='technologies__box'>
