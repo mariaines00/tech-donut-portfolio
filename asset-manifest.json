@@ -1,26 +1,29 @@
 {
   "files": {
-    "main.css": "/static/css/main.8535abcd.chunk.css",
-    "main.js": "/static/js/main.6afbc325.chunk.js",
-    "main.js.map": "/static/js/main.6afbc325.chunk.js.map",
+    "main.css": "/static/css/main.5c4c6176.chunk.css",
+    "main.js": "/static/js/main.defa46b7.chunk.js",
+    "main.js.map": "/static/js/main.defa46b7.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.4d25ba2e.js",
     "runtime-main.js.map": "/static/js/runtime-main.4d25ba2e.js.map",
-    "static/js/2.707824aa.chunk.js": "/static/js/2.707824aa.chunk.js",
-    "static/js/2.707824aa.chunk.js.map": "/static/js/2.707824aa.chunk.js.map",
+    "static/js/2.668f5086.chunk.js": "/static/js/2.668f5086.chunk.js",
+    "static/js/2.668f5086.chunk.js.map": "/static/js/2.668f5086.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.8535abcd.chunk.css.map": "/static/css/main.8535abcd.chunk.css.map",
-    "static/js/2.707824aa.chunk.js.LICENSE.txt": "/static/js/2.707824aa.chunk.js.LICENSE.txt",
-    "static/media/Ana.5b420e47.png": "/static/media/Ana.5b420e47.png",
-    "static/media/Francisco.894568a2.png": "/static/media/Francisco.894568a2.png",
-    "static/media/Maria.3e596bd0.png": "/static/media/Maria.3e596bd0.png",
+    "static/css/main.5c4c6176.chunk.css.map": "/static/css/main.5c4c6176.chunk.css.map",
+    "static/js/2.668f5086.chunk.js.LICENSE.txt": "/static/js/2.668f5086.chunk.js.LICENSE.txt",
+    "static/media/Ana.0f973ed9.png": "/static/media/Ana.0f973ed9.png",
+    "static/media/Ana_contributions.c2bcf643.png": "/static/media/Ana_contributions.c2bcf643.png",
+    "static/media/Francisco.7144f82a.png": "/static/media/Francisco.7144f82a.png",
+    "static/media/Francisco_contributions.cd165dcd.png": "/static/media/Francisco_contributions.cd165dcd.png",
+    "static/media/Maria.140deef0.png": "/static/media/Maria.140deef0.png",
+    "static/media/Maria_contributions.49101eac.png": "/static/media/Maria_contributions.49101eac.png",
     "static/media/donut.55cde7ec.png": "/static/media/donut.55cde7ec.png",
     "static/media/favicon.81776bf6.ico": "/static/media/favicon.81776bf6.ico",
     "static/media/logo.81776bf6.png": "/static/media/logo.81776bf6.png"
   },
   "entrypoints": [
     "static/js/runtime-main.4d25ba2e.js",
-    "static/js/2.707824aa.chunk.js",
-    "static/css/main.8535abcd.chunk.css",
-    "static/js/main.6afbc325.chunk.js"
+    "static/js/2.668f5086.chunk.js",
+    "static/css/main.5c4c6176.chunk.css",
+    "static/js/main.defa46b7.chunk.js"
   ]
 }
