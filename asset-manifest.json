@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.b0cf5246.chunk.css",
-    "main.js": "/static/js/main.354f9189.chunk.js",
-    "main.js.map": "/static/js/main.354f9189.chunk.js.map",
+    "main.js": "/static/js/main.bd02ca8d.chunk.js",
+    "main.js.map": "/static/js/main.bd02ca8d.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.4d25ba2e.js",
     "runtime-main.js.map": "/static/js/runtime-main.4d25ba2e.js.map",
     "static/js/2.de4702fc.chunk.js": "/static/js/2.de4702fc.chunk.js",
@@ -16,7 +16,9 @@
     "static/media/Francisco_contributions.cd165dcd.png": "/static/media/Francisco_contributions.cd165dcd.png",
     "static/media/Maria.140deef0.png": "/static/media/Maria.140deef0.png",
     "static/media/Maria_contributions.49101eac.png": "/static/media/Maria_contributions.49101eac.png",
-    "static/media/donut.55cde7ec.png": "/static/media/donut.55cde7ec.png",
+    "static/media/donut_1.fcd2b667.png": "/static/media/donut_1.fcd2b667.png",
+    "static/media/donut_2.9447c53c.png": "/static/media/donut_2.9447c53c.png",
+    "static/media/donut_3.d046fd01.png": "/static/media/donut_3.d046fd01.png",
     "static/media/favicon.81776bf6.ico": "/static/media/favicon.81776bf6.ico",
     "static/media/logo.81776bf6.png": "/static/media/logo.81776bf6.png"
   },
@@ -24,6 +26,6 @@
     "static/js/runtime-main.4d25ba2e.js",
     "static/js/2.de4702fc.chunk.js",
     "static/css/main.b0cf5246.chunk.css",
-    "static/js/main.354f9189.chunk.js"
+    "static/js/main.bd02ca8d.chunk.js"
   ]
 }
