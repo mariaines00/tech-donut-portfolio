@@ -1,7 +1,7 @@
 .button {
   @include font;
   margin-top: 1rem;
-  padding: 0.5rem 2rem 0.5rem 2rem;
+  padding: 0.5rem 2rem;
   background-color: $background-light;
   border: 1px solid $color-primary;
   border-radius: 3px;
@@ -9,4 +9,9 @@
   letter-spacing: 0.12em;
   color: $color-primary;
   cursor: pointer;
+
+  @media only screen and (max-width: $breakpoint-medium) {
+    font-size: 1.3rem;
+    padding: 0.3rem 1rem;
+  }
 }

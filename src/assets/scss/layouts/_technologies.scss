@@ -4,7 +4,12 @@
   height: calc(var(--vh, 1vh) * 80);
   overflow: hidden !important;
   background-color: $background-light;
-  padding: 3rem 8rem;
+  padding: 3rem 10rem;
+
+  @media only screen and (max-width: $breakpoint-medium) {
+    height: 100%;
+    height: calc(var(--vh, 1vh) * 100);
+  }
 
   &__title {
     @include font;
@@ -15,9 +20,14 @@
     text-align: center;
   }
 
-  &__box{
+  &__box {
     display: flex;
     flex-flow: row;
     padding: 3rem 0rem;
+
+    @media only screen and (max-width: $breakpoint-medium) {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
   }
 }

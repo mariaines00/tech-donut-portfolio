@@ -1,4 +1,8 @@
 .landing {
+  @media only screen and (max-width: $breakpoint-medium) {
+    padding: 0 3rem;
+  }
+
   &__title {
     @include font;
     font-weight: bold;
@@ -8,6 +12,10 @@
     flex-flow: wrap-reverse;
 
     color: $font-color;
+
+    @media only screen and (max-width: $breakpoint-medium) {
+      font-size: 7rem;
+    }
   }
 
   &__subtitle {
@@ -17,6 +25,10 @@
     letter-spacing: 0.12em;
     text-transform: uppercase;
     color: $font-color-secondary;
+
+    @media only screen and (max-width: $breakpoint-medium) {
+      font-size: 2rem;
+    }
   }
 
   &__user-info {
@@ -26,8 +38,22 @@
     letter-spacing: 0.03em;
     margin-top: 4rem;
 
+    @media only screen and (max-width: $breakpoint-medium) {
+      font-size: 2rem;
+    }
+
     &--paragraph {
       font-size: 1.5rem;
+
+      @media only screen and (max-width: $breakpoint-medium) {
+        font-size: 1rem;
+      }
+    }
+  }
+
+  &__img {
+    @media only screen and (max-width: $breakpoint-medium) {
+      height: 50px;
     }
   }
 }

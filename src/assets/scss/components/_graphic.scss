@@ -11,8 +11,14 @@
 
   &--margin {
     margin-bottom: 2rem;
+
+    @media only screen and (max-width: $breakpoint-medium) {
+      height: 70px;
+      width: 300px;
+    }
   }
 }
+
 .arrow {
   &--padding {
     padding-left: 1rem;

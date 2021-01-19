@@ -7,4 +7,8 @@
   overflow: hidden !important;
   background-color: $background-dark;
   padding: 3rem 8rem;
+
+  @media only screen and (max-width: $breakpoint-medium) {
+    padding: 2rem 3rem;
+  }
 }
