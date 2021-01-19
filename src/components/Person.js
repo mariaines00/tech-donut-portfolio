@@ -3,7 +3,6 @@ import ShowGithubGraphic from './ShowGithubGraphic'
 import SocialLink from './SocialLink'
 
 export const Person = (props) => {
-  console.log(props)
   return (
     <div className='about__box'>
       <img className='about__box--image' alt='' src={props.image} width='180' height='190' />

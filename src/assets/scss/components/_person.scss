@@ -3,48 +3,91 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+
     &--title {
       @include font;
       font-size: 3rem;
       color: $color-light;
+
+      @media only screen and (max-width: $breakpoint-medium) {
+        font-size: 2rem;
+      }
     }
+
     &--subtitle {
       @include font;
       font-size: 2rem;
       color: $color-light;
+
+      @media only screen and (max-width: $breakpoint-medium) {
+        font-size: 1rem;
+      }
     }
+
     &--description {
       @include font;
       font-size: 1rem;
       color: $color-light;
+
+      @media only screen and (max-width: $breakpoint-medium) {
+        font-size: 0.5rem;
+      }
     }
+
     &--image {
       padding-right: 1rem;
+
+      @media only screen and (max-width: $breakpoint-medium) {
+        height: 120px;
+        width: 130px;
+      }
     }
   }
+
   &__box--reverse {
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
     text-align: right;
+
     &--title {
       @include font;
       font-size: 3rem;
       color: $color-light;
+
+      @media only screen and (max-width: $breakpoint-medium) {
+        font-size: 2rem;
+      }
     }
+
     &--subtitle {
       @include font;
       font-size: 2rem;
       color: $color-light;
+
+      @media only screen and (max-width: $breakpoint-medium) {
+        font-size: 1rem;
+      }
     }
+
     &--image {
       padding-right: 1rem;
       transform: scaleX(-1);
+
+      @media only screen and (max-width: $breakpoint-medium) {
+        height: 120px;
+        width: 130px;
+      }
     }
+
     &--description {
       @include font;
       font-size: 1rem;
       color: $color-light;
+
+      @media only screen and (max-width: $breakpoint-medium) {
+        font-size: 0.5rem;
+      }
     }
   }
 }

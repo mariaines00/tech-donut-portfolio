@@ -13,7 +13,7 @@ class LandingHome extends Component {
       selectedDonut: null,
     }
   }
-  componentWillMount() {
+  componentDidMount() {
     this.displayRandomDonut()
   }
 
@@ -28,7 +28,7 @@ class LandingHome extends Component {
       <div className='landing'>
         <div className='landing__title'>
           Tech Donut
-          <img alt='Donut' src={this.state.selectedDonut} height='100px' />
+          <img className='landing__img' alt='Donut' src={this.state.selectedDonut} height='100px' />
         </div>
         <div className='landing__subtitle'>Move your ass and bring us a donut</div>
         <div className='landing__user-info'>
