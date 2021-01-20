@@ -22,27 +22,24 @@
 
 .content {
   &__landing {
+    @include display;
     -webkit-box-pack: center;
-    justify-content: center;
     -webkit-box-align: center;
-    display: flex;
     position: relative;
     flex-direction: column;
     align-items: center;
-    width: 100%;
     height: 100vh;
     height: calc(var(--vh, 1vh) * 100);
-    overflow: hidden !important;
     background-color: $background-light;
   }
 }
 
 .to-top {
-  @include arrowToTop;
+  @include arrow-to-top;
 
   &:focus,
   &:active {
-    @include arrowToTop;
+    @include arrow-to-top;
   }
 
   &:hover {

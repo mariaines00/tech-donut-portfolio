@@ -1,15 +1,12 @@
 .contact {
+  @include display;
   -webkit-box-pack: center;
-  justify-content: center;
   -webkit-box-align: center;
-  display: flex;
   position: relative;
   flex-direction: column;
   align-items: center;
-  width: 100%;
   height: 100%;
   height: calc(var(--vh, 1vh) * 100);
-  overflow: hidden !important;
   background-color: $background-dark;
 
   &__title {
@@ -38,32 +35,35 @@
     }
 
     &__input {
-      max-width: 100%;
-      padding: 0.5rem 1rem;
-      background-color: $background-light;
-      border: 1px solid $color-primary-dark;
-      border-radius: 2px;
+      @include input;
       font-size: 1.5rem;
+      max-width: 100%;
 
       &--textarea {
-        padding: 0.5rem 1rem;
-        background-color: $background-light;
-        border: 1px solid $color-primary-dark;
-        border-radius: 2px;
+        @include input;
         font-size: 1.5rem;
         height: 100px;
+
+        &:hover,
+        &:focus,
+        &:active {
+          @include input;
+        }
+      }
+
+      &:hover,
+      &:focus,
+      &:active {
+        @include input;
       }
 
       &--submit {
         @include font;
+        @include input;
         margin-top: 1rem;
-        padding: 0.5rem 2rem;
-        background-color: $background-light;
-        border: 1px solid $color-primary-dark;
-        border-radius: 3px;
         text-align: center;
         letter-spacing: 0.12em;
-        color: $color-primary;
+        color: $color-light;
         display: inline;
         cursor: pointer;
 

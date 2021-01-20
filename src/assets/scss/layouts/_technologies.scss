@@ -1,14 +1,11 @@
 .technologies {
+  @include display;
   -webkit-box-pack: center;
-  justify-content: center;
   -webkit-box-align: center;
-  width: 100%;
   height: 60vh;
   height: calc(var(--vh, 1vh) * 60);
-  overflow: hidden !important;
   background-color: $background-light;
   padding: 3rem 10rem;
-  display: flex;
   position: relative;
   flex-direction: column;
   align-items: center;
