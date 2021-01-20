@@ -26,7 +26,7 @@
     "test": "react-scripts test",
     "predeploy": "npm run build && cp CNAME build/CNAME",
     "deploy": "gh-pages -d build",
-    "prettier": "prettier 'app/src/**/*.{js,jsx,html,css,scss}' --write",
+    "prettier": "prettier 'src/**/*.{js,jsx,html,css,scss}' --write",
     "prettier:all": "prettier '**' --write",
     "compile:sass": "sass src/assets/scss/main.scss src/assets/css/styles.css",
     "watch:sass": "sass src/assets/scss/main.scss src/assets/css/styles.css --watch"
