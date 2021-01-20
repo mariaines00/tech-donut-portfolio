@@ -10,6 +10,10 @@
       @include font;
       font-size: 2rem;
       color: $font-color;
+
+      @media only screen and (max-width: $breakpoint-smallest) {
+        font-size: 1.5rem;
+      }
     }
 
     &--description {
@@ -18,9 +22,19 @@
       color: $font-color;
     }
 
-    &--icon {
+    &-icon {
       color: $font-color-dark;
       padding: 3rem 1rem;
+
+      &--size {
+        @media only screen and (max-width: $breakpoint-medium) {
+          height: 60px;
+        }
+
+        @media only screen and (max-width: $breakpoint-smallest) {
+          height: 50px;
+        }
+      }
     }
   }
 }
