@@ -5,6 +5,7 @@ import About from '../layout/About/About'
 import Technologies from '../layout/Technologies/Technologies'
 import Contact from '../layout/Contact/Contact'
 import Copyright from '../layout/Copyright/Copyright'
+import { FaArrowCircleUp } from 'react-icons/fa'
 
 class Portfolio extends Component {
   render() {
@@ -26,6 +27,9 @@ class Portfolio extends Component {
           <div>
             <Copyright />
           </div>
+          <a href='# ' className='to-top'>
+            <FaArrowCircleUp size={40} className='to-top--icon' />
+          </a>
         </div>
       </div>
     )

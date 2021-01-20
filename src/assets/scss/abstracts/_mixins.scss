@@ -3,3 +3,13 @@
   font-style: normal;
   //line-height: 245px;
 }
+
+@mixin arrowToTop {
+  opacity: 0.3;
+  position: fixed;
+  bottom: 5%;
+  right: 3rem;
+  margin: 0;
+  padding: 0px 3px;
+  color: $color-secondary;
+}

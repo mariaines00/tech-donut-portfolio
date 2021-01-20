@@ -15,6 +15,7 @@ html {
   height: 100%;
   box-sizing: border-box;
   font-size: 62.5%; // 1rem = 10px, 10px(target) / 16px(browser default) = 62.5%
+  scroll-behavior: smooth;
 
   @media only screen and (max-width: $breakpoint-large) {
     font-size: 50%; // 8px/16px = 0.5 -> 50%
