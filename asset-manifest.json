@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.e0c1fdd7.chunk.css",
-    "main.js": "/static/js/main.b100c2a5.chunk.js",
-    "main.js.map": "/static/js/main.b100c2a5.chunk.js.map",
+    "main.js": "/static/js/main.da1a327e.chunk.js",
+    "main.js.map": "/static/js/main.da1a327e.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.4d25ba2e.js",
     "runtime-main.js.map": "/static/js/runtime-main.4d25ba2e.js.map",
     "static/js/2.7be9b5c4.chunk.js": "/static/js/2.7be9b5c4.chunk.js",
@@ -23,12 +23,13 @@
     "static/media/donut_3.d046fd01.png": "/static/media/donut_3.d046fd01.png",
     "static/media/donut_3_choco.a342fc43.png": "/static/media/donut_3_choco.a342fc43.png",
     "static/media/favicon.81776bf6.ico": "/static/media/favicon.81776bf6.ico",
+    "static/media/favicon.81776bf6.png": "/static/media/favicon.81776bf6.png",
     "static/media/logo.81776bf6.png": "/static/media/logo.81776bf6.png"
   },
   "entrypoints": [
     "static/js/runtime-main.4d25ba2e.js",
     "static/js/2.7be9b5c4.chunk.js",
     "static/css/main.e0c1fdd7.chunk.css",
-    "static/js/main.b100c2a5.chunk.js"
+    "static/js/main.da1a327e.chunk.js"
   ]
 }
