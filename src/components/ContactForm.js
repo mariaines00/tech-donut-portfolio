@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import Button from './Button'
 
 class ContactForm extends Component {
   render() {

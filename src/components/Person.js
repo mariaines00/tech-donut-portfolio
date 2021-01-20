@@ -13,7 +13,7 @@ export const Person = (props) => {
         <SocialLink
           linkedin={props.links[0]}
           github={props.links[1]}
-          showGithubGraphic={<ShowGithubGraphic  {...props} graphic={props.graphic} />}></SocialLink>
+          showGithubGraphic={<ShowGithubGraphic {...props} graphic={props.graphic} />}></SocialLink>
       </div>
     </div>
   )
@@ -33,7 +33,10 @@ export const PersonReverse = (props) => {
         <div className='about__box--reverse--title'>{props.title}</div>
         <div className='about__box--reverse--subtitle'>{props.subtitle}</div>
         <div className='about__box--description'>{props.description}</div>
-        <SocialLink linkedin={props.links[0]} github={props.links[1] }  showGithubGraphic={<ShowGithubGraphic graphic={props.graphic} />}></SocialLink>
+        <SocialLink
+          linkedin={props.links[0]}
+          github={props.links[1]}
+          showGithubGraphic={<ShowGithubGraphic graphic={props.graphic} />}></SocialLink>
       </div>
     </div>
   )
