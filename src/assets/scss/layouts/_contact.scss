@@ -7,8 +7,76 @@
   flex-direction: column;
   align-items: center;
   width: 100%;
-  height: 100vh;
-  height: calc(var(--vh, 1vh) * 100);
+  height: 60%;
+  height: calc(var(--vh, 1vh) * 60);
   overflow: hidden !important;
-  background-color: $background-light;
+  background-color: $background-dark;
+
+  &__title {
+    @include font;
+    color: $font-color-light;
+    font-size: 3rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 3rem;
+
+    @media only screen and (max-width: $breakpoint-smallest) {
+      font-size: 2.5rem;
+    }
+  }
+
+  &__form {
+    display: flex;
+    flex-direction: column;
+    padding: 0 1.5rem;
+
+    &__label {
+      @include font;
+      color: $font-color-light;
+      font-size: 1.5rem;
+    }
+
+    &__input {
+      max-width: 100%;
+      padding: 0.5rem 1rem;
+      background-color: $background-light;
+      border: 1px solid $color-primary-dark;
+      border-radius: 2px;
+      font-size: 1.5rem;
+
+      &--textarea {
+        padding: 0.5rem 1rem;
+        background-color: $background-light;
+        border: 1px solid $color-primary-dark;
+        border-radius: 2px;
+        font-size: 1.5rem;
+        height: 100px;
+      }
+
+      &--submit {
+        @include font;
+        margin-top: 1rem;
+        padding: 0.5rem 2rem;
+        background-color: $background-light;
+        border: 1px solid $color-primary-dark;
+        border-radius: 3px;
+        text-align: center;
+        letter-spacing: 0.12em;
+        color: $color-primary;
+        display: inline;
+        cursor: pointer;
+
+        @media only screen and (max-width: $breakpoint-medium) {
+          font-size: 1.3rem;
+          padding: 0.3rem 1rem;
+        }
+
+        @media only screen and (max-width: $breakpoint-smallest) {
+          font-size: 1em;
+          padding: 0.5rem 0.7rem;
+        }
+      }
+    }
+  }
 }
