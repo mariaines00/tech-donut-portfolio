@@ -2,6 +2,7 @@ import './css/styles.css'
 import './scss/main.scss'
 
 import './images/favicon.ico'
+import './images/favicon.png'
 import './images/logo.png'
 import './images/donut_1.png'
 import './images/donut_2.png'
