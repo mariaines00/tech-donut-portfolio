@@ -16,6 +16,10 @@
     @media only screen and (max-width: $breakpoint-medium) {
       font-size: 7rem;
     }
+
+    @media only screen and (max-width: $breakpoint-smallest) {
+      font-size: 4.5rem;
+    }
   }
 
   &__subtitle {
@@ -28,6 +32,10 @@
 
     @media only screen and (max-width: $breakpoint-medium) {
       font-size: 2rem;
+    }
+
+    @media only screen and (max-width: $breakpoint-smallest) {
+      font-size: 1rem;
     }
   }
 
@@ -42,11 +50,19 @@
       font-size: 2rem;
     }
 
+    @media only screen and (max-width: $breakpoint-smallest) {
+      font-size: 1.5rem;
+    }
+
     &--paragraph {
       font-size: 1.5rem;
 
       @media only screen and (max-width: $breakpoint-medium) {
         font-size: 1rem;
+      }
+
+      @media only screen and (max-width: $breakpoint-smallest) {
+        font-size: 0.5rem;
       }
     }
   }
@@ -54,6 +70,10 @@
   &__img {
     @media only screen and (max-width: $breakpoint-medium) {
       height: 50px;
+    }
+
+    @media only screen and (max-width: $breakpoint-smallest) {
+      height: 30px;
     }
   }
 }

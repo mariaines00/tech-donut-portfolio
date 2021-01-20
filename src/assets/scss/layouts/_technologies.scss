@@ -18,6 +18,10 @@
     letter-spacing: 0.12em;
     text-transform: uppercase;
     text-align: center;
+
+    @media only screen and (max-width: $breakpoint-smallest) {
+      font-size: 2.5rem;
+    }
   }
 
   &__box {
