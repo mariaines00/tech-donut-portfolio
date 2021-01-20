@@ -36,3 +36,23 @@
     background-color: $background-light;
   }
 }
+
+.to-top {
+  @include arrowToTop;
+
+  &:focus,
+  &:active {
+    @include arrowToTop;
+  }
+
+  &:hover {
+    opacity: 1;
+    color: $color-secondary;
+  }
+
+  &--icon {
+    @media only screen and (max-width: $breakpoint-smallest) {
+      height: 30px;
+    }
+  }
+}
