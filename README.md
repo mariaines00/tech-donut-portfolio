@@ -8,8 +8,7 @@
 
 Simple portfolio built with react for the tech donut!!!!
 
-
-![owners](https://github.com/mariaines00/tech-donut-portfolio/blob/master/src/assets/images/favicon.png)
+<img src="https://github.com/mariaines00/tech-donut-portfolio/blob/master/src/assets/images/favicon.png" width="200" height="200" />
 
 ## Development
 
