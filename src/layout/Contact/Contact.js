@@ -4,7 +4,7 @@ import ContactForm from '../../components/ContactForm'
 class Contact extends Component {
   render() {
     return (
-      <div className='contact'>
+      <div id='contact_section' className='contact'>
         <ContactForm />
       </div>
     )

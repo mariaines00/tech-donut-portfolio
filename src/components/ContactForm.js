@@ -5,7 +5,7 @@ class ContactForm extends Component {
     return (
       <div>
         <div className='contact__title'>GIVE US FEEDBACK</div>
-        <form action='mailto:maria@gmail.com' method='GET' className='contact__form'>
+        <form action='mailto:maria.talkdesk@talkdesk.com' method='GET' className='contact__form'>
           <label className='contact__form__label'>Name</label>
           <input className='contact__form__input' name='subject' type='text' />
           <br />
