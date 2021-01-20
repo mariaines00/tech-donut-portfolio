@@ -7,8 +7,8 @@
   flex-direction: column;
   align-items: center;
   width: 100%;
-  height: 60%;
-  height: calc(var(--vh, 1vh) * 60);
+  height: 100%;
+  height: calc(var(--vh, 1vh) * 100);
   overflow: hidden !important;
   background-color: $background-dark;
 

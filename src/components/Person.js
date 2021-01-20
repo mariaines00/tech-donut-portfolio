@@ -13,7 +13,7 @@ export const Person = (props) => {
         <SocialLink
           linkedin={props.links[0]}
           github={props.links[1]}
-          showGithubGraphic={<ShowGithubGraphic {...props} graphic={props.graphic} />}></SocialLink>
+          showGithubGraphic={<ShowGithubGraphic graphic={props.graphic} />}></SocialLink>
       </div>
     </div>
   )

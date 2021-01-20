@@ -2,14 +2,15 @@ import React, { Component } from 'react'
 import donutPink from '../../assets/images/donut_1.png'
 import donutYellow from '../../assets/images/donut_2.png'
 import donutBlue from '../../assets/images/donut_3.png'
-
-import Button from '../../components/Button'
+import donutPinkChoco from '../../assets/images/donut_1_choco.png'
+import donutYellowChoco from '../../assets/images/donut_2_choco.png'
+import donutBlueChoco from '../../assets/images/donut_3_choco.png'
 
 class LandingHome extends Component {
   constructor(props) {
     super(props)
     this.state = {
-      donuts: [donutPink, donutYellow, donutBlue],
+      donuts: [donutPink, donutPinkChoco, donutYellow, donutYellowChoco, donutBlue, donutBlueChoco],
       selectedDonut: null,
     }
   }
@@ -35,7 +36,9 @@ class LandingHome extends Component {
           Fullstack Developers
           <p className='landing__user-info--paragraph'>Frontend | Backend enthusiasts</p>
         </div>
-        <Button text={'Projects'} />
+        <a className='button button--details' href='#contact_section'>
+          Contact us
+        </a>
       </div>
     )
   }

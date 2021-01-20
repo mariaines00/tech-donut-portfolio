@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { FaArrowDown, FaArrowUp } from 'react-icons/fa'
+import { FaAngleDown, FaAngleUp } from 'react-icons/fa'
 
 class ShowGithubGraphic extends Component {
   constructor(props) {
@@ -18,7 +18,7 @@ class ShowGithubGraphic extends Component {
           onClick={() => {
             this.setState({ showGraphic: !this.state.showGraphic })
           }}>
-          {this.state.showGraphic ? <FaArrowUp size={25} /> : <FaArrowDown size={25} />}
+          {this.state.showGraphic ? <FaAngleUp size={25} /> : <FaAngleDown size={25} />}
         </button>
         <div>
           {this.state.showGraphic ? (

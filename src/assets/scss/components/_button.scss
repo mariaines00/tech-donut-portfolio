@@ -19,4 +19,12 @@
     font-size: 1em;
     padding: 0.1rem 0.7rem;
   }
+
+  &--details {
+    &:hover,
+    &:active,
+    &:focus {
+      color: $color-primary-light;
+    }
+  }
 }
