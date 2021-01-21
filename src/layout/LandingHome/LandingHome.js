@@ -36,7 +36,7 @@ class LandingHome extends Component {
           Fullstack Developers
           <p className='landing__user-info--paragraph'>Frontend | Backend enthusiasts</p>
         </div>
-        <a className='button button--details' href='#contact_section'>
+        <a className='button button--contact' href='#contact_section'>
           Contact us
         </a>
       </div>

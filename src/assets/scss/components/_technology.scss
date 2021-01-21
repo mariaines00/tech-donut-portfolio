@@ -11,7 +11,7 @@
       font-size: 2rem;
       color: $font-color;
 
-      @media only screen and (max-width: $breakpoint-smallest) {
+      @media only screen and (max-width: $breakpoint-smally) {
         font-size: 1.5rem;
       }
     }
@@ -31,7 +31,7 @@
           height: 60px;
         }
 
-        @media only screen and (max-width: $breakpoint-smallest) {
+        @media only screen and (max-width: $breakpoint-smally) {
           height: 50px;
         }
       }

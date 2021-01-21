@@ -23,7 +23,7 @@
     text-transform: uppercase;
     text-align: center;
 
-    @media only screen and (max-width: $breakpoint-smallest) {
+    @media only screen and (max-width: $breakpoint-smally) {
       font-size: 2.5rem;
     }
   }
