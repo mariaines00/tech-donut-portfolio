@@ -4,7 +4,7 @@
     flex-direction: row;
     align-items: center;
 
-    @media only screen and (max-width: $breakpoint-smallest) {
+    @media only screen and (max-width: $breakpoint-smally) {
       padding: 3rem 1rem;
     }
 
@@ -27,7 +27,7 @@
         font-size: 1rem;
       }
 
-      @media only screen and (max-width: $breakpoint-smallest) {
+      @media only screen and (max-width: $breakpoint-smally) {
         font-size: 0.8rem;
       }
     }
@@ -41,7 +41,7 @@
         font-size: 0.5rem;
       }
 
-      @media only screen and (max-width: $breakpoint-smallest) {
+      @media only screen and (max-width: $breakpoint-smally) {
         font-size: 0.6rem;
       }
     }
@@ -54,7 +54,7 @@
         width: 130px;
       }
 
-      @media only screen and (max-width: $breakpoint-smallest) {
+      @media only screen and (max-width: $breakpoint-smally) {
         height: 100px;
         width: 110px;
       }
@@ -86,7 +86,7 @@
         font-size: 1rem;
       }
 
-      @media only screen and (max-width: $breakpoint-smallest) {
+      @media only screen and (max-width: $breakpoint-smally) {
         font-size: 0.6rem;
       }
     }
@@ -100,7 +100,7 @@
         width: 130px;
       }
 
-      @media only screen and (max-width: $breakpoint-smallest) {
+      @media only screen and (max-width: $breakpoint-smally) {
         height: 100px;
         width: 110px;
       }

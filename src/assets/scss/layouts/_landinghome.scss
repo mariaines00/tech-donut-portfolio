@@ -17,8 +17,12 @@
       font-size: 7rem;
     }
 
-    @media only screen and (max-width: $breakpoint-smallest) {
+    @media only screen and (max-width: $breakpoint-smally) {
       font-size: 4.5rem;
+    }
+
+    @media only screen and (max-width: $breakpoint-smallest) {
+      font-size: 4rem;
     }
   }
 
@@ -34,8 +38,11 @@
       font-size: 2rem;
     }
 
-    @media only screen and (max-width: $breakpoint-smallest) {
+    @media only screen and (max-width: $breakpoint-smally) {
       font-size: 1rem;
+    }
+    @media only screen and (max-width: $breakpoint-smallest) {
+      font-size: 0.5rem;
     }
   }
 
@@ -50,7 +57,7 @@
       font-size: 2rem;
     }
 
-    @media only screen and (max-width: $breakpoint-smallest) {
+    @media only screen and (max-width: $breakpoint-smally) {
       font-size: 1.5rem;
     }
 
@@ -61,7 +68,7 @@
         font-size: 1rem;
       }
 
-      @media only screen and (max-width: $breakpoint-smallest) {
+      @media only screen and (max-width: $breakpoint-smally) {
         font-size: 0.5rem;
       }
     }
@@ -72,8 +79,11 @@
       height: 50px;
     }
 
-    @media only screen and (max-width: $breakpoint-smallest) {
+    @media only screen and (max-width: $breakpoint-smally) {
       height: 30px;
+    }
+    @media only screen and (max-width: $breakpoint-smallest) {
+      height: 25px;
     }
   }
 }
