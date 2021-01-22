@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.73edecd7.chunk.css",
-    "main.js": "/static/js/main.14a32beb.chunk.js",
-    "main.js.map": "/static/js/main.14a32beb.chunk.js.map",
+    "main.js": "/static/js/main.8f2c77cf.chunk.js",
+    "main.js.map": "/static/js/main.8f2c77cf.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.4d25ba2e.js",
     "runtime-main.js.map": "/static/js/runtime-main.4d25ba2e.js.map",
     "static/js/2.b7795c77.chunk.js": "/static/js/2.b7795c77.chunk.js",
@@ -16,6 +16,7 @@
     "static/media/Francisco_contributions.cd165dcd.png": "/static/media/Francisco_contributions.cd165dcd.png",
     "static/media/Maria.140deef0.png": "/static/media/Maria.140deef0.png",
     "static/media/Maria_contributions.49101eac.png": "/static/media/Maria_contributions.49101eac.png",
+    "static/media/billing-bill_up.d896c363.png": "/static/media/billing-bill_up.d896c363.png",
     "static/media/donut_1.fcd2b667.png": "/static/media/donut_1.fcd2b667.png",
     "static/media/donut_1_choco.487f3665.png": "/static/media/donut_1_choco.487f3665.png",
     "static/media/donut_2.9447c53c.png": "/static/media/donut_2.9447c53c.png",
@@ -30,6 +31,6 @@
     "static/js/runtime-main.4d25ba2e.js",
     "static/js/2.b7795c77.chunk.js",
     "static/css/main.73edecd7.chunk.css",
-    "static/js/main.14a32beb.chunk.js"
+    "static/js/main.8f2c77cf.chunk.js"
   ]
 }
