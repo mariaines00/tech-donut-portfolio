@@ -6,6 +6,7 @@ import { Person, PersonReverse } from '../../components/Person'
 import anaGraphic from '../../assets/images/Ana_contributions.png'
 import mariaGraphic from '../../assets/images/Maria_contributions.png'
 import franciscoGraphic from '../../assets/images/Francisco_contributions.png'
+import Bill from '../../assets/images/billing-bill_up.png'
 
 class About extends Component {
   render() {
@@ -43,6 +44,14 @@ class About extends Component {
           image={Maria}
           links={mariaSocial}
           graphic={mariaGraphic}
+        />
+        <PersonReverse
+          title={'Bill'}
+          subtitle={'Retired Austronaut | Ray Charles fan | Ex - Redacted'}
+          description={'States Secrets'}
+          image={Bill}
+          links={franciscoSocial}
+          graphic={franciscoGraphic}
         />
       </div>
     )
